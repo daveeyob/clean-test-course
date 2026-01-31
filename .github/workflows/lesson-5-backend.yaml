@@ -10,7 +10,7 @@ jobs:
     defaults:
       run:
         working-directory: backend
-      name: Exceute the PyCharm security_test
+      name: Exceute the PyCharm security test
       steps:
         - uses: actions/checkout@v4
         - name: PyCharm Python Security Scanner
